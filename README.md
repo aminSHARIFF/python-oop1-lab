@@ -144,3 +144,31 @@ Before you submit your solution, you need to save your progress with git.
   * Click on + Create Submission. Connect your repository for this lab.
   * For additional information on submitting assignments in CodeGrade: [Getting Started in Canvas](https://help.codegrade.com/for-students/getting-started/getting-started-in-canvas)
 
+# Python OOP Bookstore Lab
+
+This project models a simple bookstore using object-oriented programming.
+
+## Classes
+
+### Book
+- Attributes:
+  - title
+  - page_count
+- Methods:
+  - turn_page()
+
+The page_count property ensures that the value is an integer.
+
+### Coffee
+- Attributes:
+  - size
+  - price
+- Methods:
+  - tip()
+
+The size property ensures that the size is either Small, Medium, or Large.
+The tip() method increases the price by 1.
+
+## Testing
+
+All functionality was verified using pytest.
